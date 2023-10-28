@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NextTheInstitution">
+
+
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <ImageView
+            android:id="@+id/imgNext1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/glbajajhome"
+            />
+
+
+
+
+
+        <TextView
+
+            android:id="@+id/txtNext1TheInstitution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgNext1"
+            android:layout_marginTop="10dp"
+            android:text="The Institution :"
+            android:textSize="25dp"
+            android:textStyle="italic|bold"
+            android:layout_marginLeft="20sp"
+            android:textColor="@color/headLineColor"
+
+            />
+        <TextView
+            android:id="@+id/txtNext2TheInstitution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtNext1TheInstitution"
+            android:text="The Gateway to the Knowledge, Citadel of Countless Opportunities, GL BAJAJ GROUP OF INSTITUTIONS is duly approved by All India Council of Technical Education (AICTE) and Council of Architecture (CoA), New Delhi and is affiliated to DR. APJ Abdul Kalam Technical University (AKTU), Lucknow."
+
+
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+
+
+            />
+
+
+        <TextView
+            android:id="@+id/txtNext3TheInstitution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Holding the sheen beacon of marvelous excellence, unparalleled commitment and noble thought of chiseling thousand of crystals into rare gems, GL Bajaj Group of Institutions is radiating the path of young generation of engineers, managers and architects since 2009."
+            android:layout_below="@id/txtNext2TheInstitution"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+
+            />
+
+
+        <TextView
+            android:id="@+id/txtNext4TheInstitution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtNext3TheInstitution"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="The core building, with all the state-of-the-art modern amenities constitutes of two four-storey academic blocks, residing amid a four-storey administrative block and four-storey workshop. Backed by a group of highly qualified, experienced and dedicated faculty and staff, GL BAJAJ, MATHURA offers education with a purpose of generating excellent technocrats, smart managers and noble human beings."
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+    android:id="@+id/imgNext2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/img_glbajaj_background"
+            android:layout_below="@id/txtNext4TheInstitution"
+
+
+
+    />
+
+
+    </RelativeLayout>
+
+
+
+
+
+</ScrollView>

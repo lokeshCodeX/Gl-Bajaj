@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+<item
+    android:id="@+id/home"
+    android:title="HOME"
+    />
+
+    <item
+        android:id="@+id/campus_dacilities"
+        android:title="CAMPUS/FACILITIES"
+        />
+    <item
+        android:id="@+id/academics"
+        android:title="ACEDEMICS"
+
+        />
+    <item
+        android:id="@+id/course_admission"
+        android:title="COURSE/ADDIMISSION"
+        />
+
+    <item
+        android:title="TRAINING/PLACEMENT"
+        android:id="@+id/training_placement"
+        />
+    <item
+        android:title="RESEARCH/DEVELOPMENT"
+        android:id="@+id/research_development"
+
+        />
+
+    <item
+        android:title="EVENTS"
+        android:id="@+id/events"
+        />
+    <item
+        android:title="ABOUT US"
+        android:id="@+id/about_us"
+        />
+    </group>
+</menu>
